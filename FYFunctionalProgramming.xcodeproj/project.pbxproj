@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF03E6151C9023B40004FF0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F7A1C76EA2D00CCBBF3 /* ViewController.m */; };
 		EFC72F751C76EA2D00CCBBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F741C76EA2D00CCBBF3 /* main.m */; };
 		EFC72F781C76EA2D00CCBBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F771C76EA2D00CCBBF3 /* AppDelegate.m */; };
-		EFC72F7B1C76EA2D00CCBBF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F7A1C76EA2D00CCBBF3 /* ViewController.m */; };
 		EFC72F7E1C76EA2D00CCBBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC72F7C1C76EA2D00CCBBF3 /* Main.storyboard */; };
 		EFC72F801C76EA2D00CCBBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC72F7F1C76EA2D00CCBBF3 /* Assets.xcassets */; };
 		EFC72F831C76EA2D00CCBBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC72F811C76EA2D00CCBBF3 /* LaunchScreen.storyboard */; };
 		EFC72F8E1C76EA2D00CCBBF3 /* FYFunctionalProgrammingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F8D1C76EA2D00CCBBF3 /* FYFunctionalProgrammingTests.m */; };
 		EFC72F991C76EA2D00CCBBF3 /* FYFunctionalProgrammingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72F981C76EA2D00CCBBF3 /* FYFunctionalProgrammingUITests.m */; };
+		EFC72FA81C770D1C00CCBBF3 /* FYCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC72FA71C770D1C00CCBBF3 /* FYCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EFC72F941C76EA2D00CCBBF3 /* FYFunctionalProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYFunctionalProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC72F981C76EA2D00CCBBF3 /* FYFunctionalProgrammingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYFunctionalProgrammingUITests.m; sourceTree = "<group>"; };
 		EFC72F9A1C76EA2D00CCBBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC72FA61C770D1C00CCBBF3 /* FYCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCalculator.h; sourceTree = "<group>"; };
+		EFC72FA71C770D1C00CCBBF3 /* FYCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				EFC72F811C76EA2D00CCBBF3 /* LaunchScreen.storyboard */,
 				EFC72F841C76EA2D00CCBBF3 /* Info.plist */,
 				EFC72F731C76EA2D00CCBBF3 /* Supporting Files */,
+				EFC72FA61C770D1C00CCBBF3 /* FYCalculator.h */,
+				EFC72FA71C770D1C00CCBBF3 /* FYCalculator.m */,
 			);
 			path = FYFunctionalProgramming;
 			sourceTree = "<group>";
@@ -273,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC72F7B1C76EA2D00CCBBF3 /* ViewController.m in Sources */,
+				EF03E6151C9023B40004FF0B /* ViewController.m in Sources */,
 				EFC72F781C76EA2D00CCBBF3 /* AppDelegate.m in Sources */,
+				EFC72FA81C770D1C00CCBBF3 /* FYCalculator.m in Sources */,
 				EFC72F751C76EA2D00CCBBF3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +507,7 @@
 				EFC72F9F1C76EA2D00CCBBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC72FA01C76EA2D00CCBBF3 /* Build configuration list for PBXNativeTarget "FYFunctionalProgrammingTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				EFC72FA21C76EA2D00CCBBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC72FA31C76EA2D00CCBBF3 /* Build configuration list for PBXNativeTarget "FYFunctionalProgrammingUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				EFC72FA51C76EA2D00CCBBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

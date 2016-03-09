@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FYCalculator.h"
 
 @interface ViewController ()
 
@@ -14,6 +15,7 @@
 
 @implementation ViewController
 
+// 函数式编程思想：把一个操作写成一系列的方法
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
